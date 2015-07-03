@@ -14,7 +14,7 @@ public class SimpleArray {
 	    emps.add(new Employee("Bobba", "Bharat"));
 	    emps.add(new Employee("Vippulancha", "Prem"));
 	    emps.add(new Employee("Ponnuswami", "Ram"));
-	    
+	    emps.add(new Employee("Chava", "Manoj"));
 	    System.out.println("Team : \n");
 	    for(int i=0;i<emps.size();i++)
 	    {
@@ -24,6 +24,7 @@ public class SimpleArray {
 	}
 
 	class Address {
+		private String address;
 	}
 
 	class Employee {
