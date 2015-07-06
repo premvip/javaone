@@ -15,6 +15,7 @@ public class SimpleArray {
 	    emps.add(new Employee("Vippulancha", "Prem"));
 	    emps.add(new Employee("Ponnuswami", "Ram"));
 	    emps.add(new Employee("Chava", "Manoj"));
+	    emps.add(new Employee("Sterling", "Debbie"));
 	    System.out.println("Team : \n");
 	    for(int i=0;i<emps.size();i++)
 	    {
