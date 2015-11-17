@@ -20,13 +20,15 @@ public class SimpleArray {
 	    System.out.println("Team : \n");
 	    for(int i=0;i<emps.size();i++)
 	    {
-	    	System.out.println(emps.get(i).getFirstName()+"  "+emps.get(i).getLastName());
+	    	System.out.println(emps.get(i).getFirstName()+"  "+emps.get(i).getLastName()+ "\n" + emps.get(i).getAddress());
 	    }
 	  }
 	}
 
 	class Address {
 		private String address;
+		Address(String s){address=s;}
+		public String getAddress(){ return address;}
 	}
 
 	class Employee {
@@ -41,7 +43,7 @@ public class SimpleArray {
 	  public Employee(String lastName, String firstName) {
 	    this.lastName = lastName;
 	    this.firstName = firstName;
-	    this.address = new Address();
+	    this.address = new Address("1100 Merrill Lynch Dr, Pennington, NJ");
 
 	  }
 
@@ -68,6 +70,7 @@ public class SimpleArray {
 	  public void setSalary(double salary) {
 	    this.salary = salary;
 	  }
+	  public String getAddress(){ return address.getAddress();}
 	}
 
 	   
