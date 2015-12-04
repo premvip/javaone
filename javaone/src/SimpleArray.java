@@ -29,6 +29,7 @@ public class SimpleArray {
 
 
 
+
 	class Address {
 		private String address;
 		Address(String s){address=s;}
